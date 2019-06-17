@@ -37,11 +37,14 @@ which works out to:
 
 3. Replacing $q$ with $1-p$, and expanding $\overline{W}$ in the numerator:
 
-\begin{equation} \Delta p = \frac{p^2(1+s) + pq(1+hs) - p(p^2(1+s) + (1-p)^2 + 2p(1-p)(1+hs)}{\overline{W}} \end{equation}
+\begin{equation} \Delta p = \frac{p^2(1+s) + p(1-p)(1+hs) - p(p^2(1+s) + (1-p)^2 + 2p(1-p)(1+hs))}{\overline{W}} \end{equation}
 
-4. Factorising by $p(1-p)$:
+4. Factorising by $p(1-p)$ as follows, first by $p$, and then by $1-p$:
+
+\begin{equation} \Delta p = \frac{p[p(1+s)(1-p) + (1-p)(1 + hs - 1 + p - 2p(1+hs)]}{\overline{W}} \end{equation}
 
 \begin{equation} \Delta p = \frac{p(1-p)[p(1+s) + ((1+hs)(1-2p)) - (1-p)]}{\overline{W}} \end{equation}
+
 
 which reduces the numerator on expansion to:
 
