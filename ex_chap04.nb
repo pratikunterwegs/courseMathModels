@@ -10,43 +10,67 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    216943,       3956]
-NotebookOptionsPosition[    214807,       3911]
-NotebookOutlinePosition[    215561,       3937]
-CellTagsIndexPosition[    215518,       3934]
+NotebookDataLength[    218078,       3986]
+NotebookOptionsPosition[    215846,       3940]
+NotebookOutlinePosition[    216600,       3966]
+CellTagsIndexPosition[    216557,       3963]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Exercise 4.14", "Section",
+Cell[TextData[StyleBox["Exercise 4.14",
+ FontFamily->"TeX Gyre Schola"]], "Section",
  CellChangeTimes->{{3.769770650742399*^9, 3.7697706517383623`*^9}, {
   3.770702950375367*^9, 3.770702965176557*^9}, {3.77087230092914*^9, 
-  3.7708723102847633`*^9}},ExpressionUUID->"41c8f6e2-a8fe-4e6a-88e0-\
+  3.7708723102847633`*^9}, {3.770884296584401*^9, 
+  3.770884310453442*^9}},ExpressionUUID->"41c8f6e2-a8fe-4e6a-88e0-\
 1e28ab8f1d1f"],
 
 Cell[TextData[{
- "Here we ignore the latently infected cells from 4.13 and examine whether \
-this changes disease dynamics. \nWe use the following parameter values:\n\
-\[CapitalGamma] = 1.36, \[Mu] = ",
+ StyleBox["Pratik Gupte and Josh Lambert\n",
+  FontFamily->"TeX Gyre Schola"],
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["30", "th"], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontFamily->"TeX Gyre Schola",ExpressionUUID->
+  "ecc12984-c7ee-40cd-acf7-1ac8a39f8287"],
+ StyleBox[" June, 2019",
+  FontFamily->"TeX Gyre Schola"]
+}], "Author",
+ CellChangeTimes->{{3.769770650742399*^9, 3.7697706517383623`*^9}, {
+  3.770702950375367*^9, 3.770702965176557*^9}, {3.77087230092914*^9, 
+  3.7708723102847633`*^9}, {3.770884296584401*^9, 
+  3.770884347507469*^9}},ExpressionUUID->"c4b2ec23-cf6f-46e5-b968-\
+a60c8fd60a66"],
+
+Cell[TextData[{
+ StyleBox["Here we ignore the latently infected cells from 4.13 and examine \
+whether this changes disease dynamics. \nWe use the following parameter \
+values:\n\[CapitalGamma] = 1.36, \[Mu] = ",
+  FontFamily->"TeX Gyre Schola"],
  Cell[BoxData[
   FormBox[
    RowBox[{
     RowBox[{"1.36", "\[Times]", 
      SuperscriptBox["10", 
       RowBox[{"-", "3"}]]}], ","}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FontFamily->"TeX Gyre Schola",ExpressionUUID->
   "71153397-25c9-438e-b2e3-8b57b56b9e59"],
- " \[Tau] = 0.2, \[Delta] = 0.33, \[Pi] = 100, \[Sigma] = 2, and \[Beta] = ",
+ StyleBox[" \[Tau] = 0.2, \[Delta] = 0.33, \[Pi] = 100, \[Sigma] = 2, and \
+\[Beta] = ",
+  FontFamily->"TeX Gyre Schola"],
  Cell[BoxData[
   FormBox[
    RowBox[{"2.7", "\[Times]", 
     SuperscriptBox["10", 
      RowBox[{"-", "4"}]]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FontFamily->"TeX Gyre Schola",ExpressionUUID->
   "360f26c6-df47-4340-8e2b-c123c4d16f97"],
- "."
+ StyleBox[".",
+  FontFamily->"TeX Gyre Schola"]
 }], "Text",
  CellChangeTimes->{{3.7708724453015347`*^9, 3.770872561510118*^9}, {
   3.770876085308693*^9, 3.770876162421131*^9}, {3.770876222357143*^9, 
@@ -3874,11 +3898,12 @@ vbqj7B8n4s1D+vlHJ+793v8Bt6UILg==\
 }, Open  ]],
 
 Cell[TextData[{
- "Here, we see the effect of latently infected cells on HIV dynamics, which \
-is the rapid elimination of actively infected cells from the population. If \
-these were the only cells serving as sources of new virus, the infection \
-would be eliminated conditional on the value of \[Beta], the infection rate. \
-At low values of \[Beta] = ",
+ StyleBox["Here, we see the effect of latently infected cells on HIV \
+dynamics, which is the rapid elimination of actively infected cells from the \
+population. If these were the only cells serving as sources of new virus, the \
+infection would be eliminated conditional on the value of \[Beta], the \
+infection rate. At low values of \[Beta] = ",
+  FontFamily->"TeX Gyre Schola"],
  Cell[BoxData[
   FormBox[
    RowBox[{
@@ -3886,21 +3911,25 @@ At low values of \[Beta] = ",
      SuperscriptBox["10", 
       RowBox[{"-", "5"}]]}], ",", " ", 
     RowBox[{"the", " ", "infection", " "}]}], TraditionalForm]],
-  FormatType->"TraditionalForm",ExpressionUUID->
+  FontFamily->"TeX Gyre Schola",ExpressionUUID->
   "57ab4ae7-21ec-443d-b161-1e7ac1e1310f"],
- "affects less than 10% of cells. At \[Beta] values between 5 and 10 times \
-greater (",
+ StyleBox["affects less than 10% of cells. At \[Beta] values between 5 and 10 \
+times greater (",
+  FontFamily->"TeX Gyre Schola"],
  Cell[BoxData[
   FormBox[
    RowBox[{
     SuperscriptBox["1.3510", 
      RowBox[{"-", "4"}]], " ", "and", " ", "2.7", "\[Times]", 
     SuperscriptBox["10", 
-     RowBox[{"-", "4"}]]}], TraditionalForm]],ExpressionUUID->
+     RowBox[{"-", "4"}]]}], TraditionalForm]],
+  FontFamily->"TeX Gyre Schola",ExpressionUUID->
   "94ae4ac4-b052-46d0-8d1d-be543f108c43"],
- "), the infection rate merely determines the time until peak infection; the \
-population of susceptible cells begins a recovery in both cases. At very high \
-values of \[Beta], the infection affects all susceptible cells."
+ StyleBox["), the infection rate merely determines the time until peak \
+infection; the population of susceptible cells begins a recovery in both \
+cases. At very high values of \[Beta], the infection affects all susceptible \
+cells.",
+  FontFamily->"TeX Gyre Schola"]
 }], "Text",
  CellChangeTimes->{{3.770882427162321*^9, 3.770882527002768*^9}, {
    3.770882998695054*^9, 3.770883009045409*^9}, 3.770883293831379*^9, {
@@ -3909,8 +3938,8 @@ values of \[Beta], the infection affects all susceptible cells."
 c84cd8bf0d82"]
 }, Open  ]]
 },
-WindowSize->{1920, 1043},
-WindowMargins->{{1920, Automatic}, {0, Automatic}},
+WindowSize->{960, 1043},
+WindowMargins->{{Automatic, -1920}, {0, Automatic}},
 PrintingCopies->1,
 PrintingPageRange->{Automatic, Automatic},
 PrintingOptions->{"PaperOrientation"->"Portrait",
@@ -3921,7 +3950,7 @@ pratik_and_josh.pdf",
 "PrintMultipleHorizontalPages"->False,
 "PrintRegistrationMarks"->True,
 "PrintingMargins"->{{54, 54}, {72, 72}}},
-Magnification:>1.5 Inherited,
+Magnification:>1.1 Inherited,
 FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -3937,26 +3966,27 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 256, 4, 102, "Section",ExpressionUUID->"41c8f6e2-a8fe-4e6a-88e0-1e28ab8f1d1f"],
-Cell[839, 28, 989, 25, 125, "Text",ExpressionUUID->"760e56cf-84be-4380-9184-0be450bde590"],
-Cell[1831, 55, 1092, 17, 47, "Input",ExpressionUUID->"8ef243f4-6f94-4d11-97c6-d7657e3eed67"],
+Cell[580, 22, 357, 6, 81, "Section",ExpressionUUID->"41c8f6e2-a8fe-4e6a-88e0-1e28ab8f1d1f"],
+Cell[940, 30, 640, 16, 74, "Author",ExpressionUUID->"c4b2ec23-cf6f-46e5-b968-a60c8fd60a66"],
+Cell[1583, 48, 1120, 29, 135, "Text",ExpressionUUID->"760e56cf-84be-4380-9184-0be450bde590"],
+Cell[2706, 79, 1092, 17, 36, "Input",ExpressionUUID->"8ef243f4-6f94-4d11-97c6-d7657e3eed67"],
 Cell[CellGroupData[{
-Cell[2948, 76, 2596, 70, 184, "Input",ExpressionUUID->"6cfc5c05-8640-467f-87bc-69428a7a07eb"],
-Cell[5547, 148, 1227, 32, 80, "Output",ExpressionUUID->"1442b11b-7df2-462f-8e92-8848ab9ad40c"]
+Cell[3823, 100, 2596, 70, 172, "Input",ExpressionUUID->"6cfc5c05-8640-467f-87bc-69428a7a07eb"],
+Cell[6422, 172, 1227, 32, 108, "Output",ExpressionUUID->"1442b11b-7df2-462f-8e92-8848ab9ad40c"]
 }, Open  ]],
-Cell[6789, 183, 6571, 149, 784, "Input",ExpressionUUID->"ac5b65bd-a65f-4a0d-8e82-415f05f5db58"],
+Cell[7664, 207, 6571, 149, 712, "Input",ExpressionUUID->"ac5b65bd-a65f-4a0d-8e82-415f05f5db58"],
 Cell[CellGroupData[{
-Cell[13385, 336, 2927, 62, 252, "Input",ExpressionUUID->"dd33e81a-9fd4-49cc-8ee9-3e8421eb3c71"],
-Cell[16315, 400, 585, 12, 34, "Message",ExpressionUUID->"9a838e8c-a35b-4146-a841-9ebebd21daf8"],
-Cell[16903, 414, 587, 12, 34, "Message",ExpressionUUID->"bc69daf9-b2d5-4448-8f92-9e536212f742"],
-Cell[17493, 428, 585, 12, 34, "Message",ExpressionUUID->"54f46f12-0897-4fc9-b061-ed612762b37a"],
-Cell[18081, 442, 618, 12, 34, "Message",ExpressionUUID->"cf6845f0-1e90-4a98-9685-58fb43c923d0"]
+Cell[14260, 360, 2927, 62, 199, "Input",ExpressionUUID->"dd33e81a-9fd4-49cc-8ee9-3e8421eb3c71"],
+Cell[17190, 424, 585, 12, 25, "Message",ExpressionUUID->"9a838e8c-a35b-4146-a841-9ebebd21daf8"],
+Cell[17778, 438, 587, 12, 25, "Message",ExpressionUUID->"bc69daf9-b2d5-4448-8f92-9e536212f742"],
+Cell[18368, 452, 585, 12, 25, "Message",ExpressionUUID->"54f46f12-0897-4fc9-b061-ed612762b37a"],
+Cell[18956, 466, 618, 12, 25, "Message",ExpressionUUID->"cf6845f0-1e90-4a98-9685-58fb43c923d0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18736, 459, 1132, 27, 82, "Input",ExpressionUUID->"eec7abc5-e3c3-4dd5-937f-cadc237c2be9"],
-Cell[19871, 488, 193417, 3384, 612, 145352, 2596, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"e94b84e6-1535-445e-a5c1-1a96b1ef0140"]
+Cell[19611, 483, 1132, 27, 91, "Input",ExpressionUUID->"eec7abc5-e3c3-4dd5-937f-cadc237c2be9"],
+Cell[20746, 512, 193417, 3384, 582, 145352, 2596, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"e94b84e6-1535-445e-a5c1-1a96b1ef0140"]
 }, Open  ]],
-Cell[213303, 3875, 1488, 33, 161, "Text",ExpressionUUID->"8e93411b-0677-4449-b955-c84cd8bf0d82"]
+Cell[214178, 3899, 1652, 38, 226, "Text",ExpressionUUID->"8e93411b-0677-4449-b955-c84cd8bf0d82"]
 }, Open  ]]
 }
 ]
